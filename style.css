@@ -1,67 +1,32 @@
-*
 body{
-    font-family: 'Montserrat';
-    
+    padding: 0;
+    margin: 0;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
 }
-section{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+
+.container{
+    padding: 0;
+    margin: 20px auto;
+    max-width: 500px;
+    width: 100%;
+    background: transparent;
+}
+
+.container{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.container .forum-group{
+    width: 100%;
 }
 .container{
-    max-width: 20%;
-}
-.form-group{
-    margin-top: 10px;
-    font-size: 10px;
-}
-textarea{
-    resize: vertial;
-}
-button[type="submit"]{
-    width: 100%;
-    font-family: 'Montserrat';
-    color: rgb(red, green, blue);
-     text-align: center;
-     cursor: pointer;
-     margin-top: 10px;
-     transition: .3s ease background-color;
-}
-button[type="submit"]:hover{
-    font-family: 'Montserrat';
-    cursor: pointer;
-    margin-top: 18px;
-    background: var(--chakra-colors-maroon);
-}
-#status{
-    width: 90%;
-    max-width: 500px;
-    text-align: center;
-    padding: 0 auto;
-    margin: 0 auto;
-    border-radius: 8px;
-}
-#status.success{
-    background-color: greenyellow;
-    animation: status 4s ease forwards;
-}
-#status.error{
-    background-color: yellowgreen;
-    color: white;
-    animation: status 4s ease forwards;
-}
-@keyframes status{
-    0%{
-        opacity: 1;
-        pointer-events: all;
-    }
-    90%{
-        opacity: 0;
-        pointer-events: all;
-    }
-    100%{
-        opacity: 1;
-        pointer-events: all;
-    }
+    resize: none;
+    height: 125px;
 }
